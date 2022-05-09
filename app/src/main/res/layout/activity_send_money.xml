@@ -13,7 +13,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="4dp"
         android:ems="10"
-        android:hint="07"
+        android:hint="0797916750"
         android:inputType="phone"
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,14 +24,14 @@
         android:id="@+id/editTextNumber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="52dp"
         android:layout_marginEnd="8dp"
         android:ems="10"
         android:hint="30,000"
         android:inputType="number"
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.925"
+        app:layout_constraintHorizontal_bias="0.818"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextPhone" />
 
@@ -86,7 +86,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.017"
-        app:srcCompat="@drawable/ic_baseline_attach_money_24" />
+        app:srcCompat="@drawable/ic_baseline_local_phone_24" />
 
     <ImageView
         android:id="@+id/imgAmount"
@@ -113,7 +113,7 @@
         app:layout_constraintHorizontal_bias="0.372"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imgAmount"
-        app:layout_constraintVertical_bias="0.2"
+        app:layout_constraintVertical_bias="0.242"
         app:srcCompat="@drawable/ic_baseline_enhanced_encryption_24" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
